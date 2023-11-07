@@ -1,0 +1,567 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Rubik !important;
+}
+
+.header{
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+}
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0em;
+}
+h3 {
+  color: #2A78BE !important;
+}
+
+.ui.text.container h4 {
+  line-height: 4rem;
+  font-weight: normal;
+}
+
+.ui[class*="center aligned"].segment {
+  text-align: left !important;
+}
+
+.right.menu a {
+  padding: 0px 20px;
+}
+
+/*-------- Header Home --------- */
+
+#block-newroco-site-branding img {
+  max-width: 40% !important;
+}
+
+.layout.layout--onecol,
+.layout__region {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+/*-------- Block Who We Are --------- */
+.block_who_we_are{
+  height: 600px;
+  color:#fff;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.block_who_we_are strong{
+  color: #fff !important;
+  font-size: 50px !important;
+}
+.block_who_we_are p{
+  font-size: 30px !important;
+  width: 800px;
+}
+.home_background:after
+{
+filter: brightness(0.5);
+}
+/*-------- Block What We Do --------- */
+.segment_what_we_do {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.block_what_we_do {
+  text-align: center;
+  margin-bottom: 3em;
+  margin-top: 10em;
+}
+.card {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  border-radius: 10%;
+  margin: 20px 20px;
+  background-color: #F8F6F4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+  width: 50%;
+  padding-top: 20px;
+}
+
+.card p {
+  font-size: medium;
+}
+
+.card h2 {
+  font-size: 22px !important;
+  padding-top: 10px;
+  width: auto;
+}
+
+.card:before {
+  background-color: #053460;
+}
+
+/*-------- Block Founfing--------- */
+
+.segment_founding {
+  background-color: #180d3d;
+  color: #fff;
+  text-align: center;
+  padding: 100px 50px;
+  font-size: 2em !important;
+}
+
+
+.block_founding2,
+.row1_founding,
+.row3_founding {
+  width: 58%;
+  max-width: 1300px;
+  width: 67%;
+  max-width: 1300px;
+  right: -15.5%;
+}
+
+.block_founding2 p {
+  background-color: white;
+  width: 100%;
+  height: 2px;
+  margin: 0px;
+}
+
+.row1_founding p,
+.row3_founding p {
+  background-color: white;
+  width: 5px;
+  height: 35px;
+  margin: 0px;
+}
+
+.row3_founding {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row1_founding {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.block_founding {
+  height: 100px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block_founding p {
+  background-color: white;
+  width: 4px;
+  margin: 0px;
+  display: inline;
+}
+
+.block_founding h6 {
+  margin: 0px;
+}
+
+.block_founding h2 {
+  color: white !important;
+}
+
+/*-------- Block Welcome to Newroco--------- */
+.segment_welcome_wave {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  transform: scale(1, 4);
+}
+
+.segment_welcome_wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 150%;
+  width: 127%;
+  height: 274px;
+  background-color: #005892;
+  left: -38%;
+  top: -219px;
+  clip-path: ellipse(167% 13% at 30% 105%);
+}
+
+.segment_welcome_wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 280px;
+  background-color: white;
+  right: -31%;
+  top: 20px;
+}
+
+.welcome_to_newroco {
+  padding: 40px;
+  color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome_to_newroco img{
+  width: 12%;
+  margin: 0px 20px !important;
+  position: relative;
+  filter: invert(1);;
+}
+.segment_welcome {
+  background-image: linear-gradient(#180D3D, #074178, #005892);
+  padding: 40px 50px;
+}
+
+.segment_welcome h4 {
+  color: #fff;
+  font-size: 28px !important;
+}
+
+/* ---- Technology ---- */
+.technology {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.technology h2 {
+  padding-bottom: 50px;
+}
+
+.technology img {
+  filter: contrast(0.7) sepia(100%) hue-rotate(171deg) brightness(1);
+  padding: 10px;
+}
+
+.technology img:hover {
+  filter: none;
+}
+
+/* ---- Solution ---- */
+.solution > div{
+  width: 30%;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 100px;
+    top: 0px;
+  }
+
+}
+
+.segment_solutions {
+  background-color: #180D3D !important;
+}
+
+.solution {
+  color: #fff;
+  padding: 40px 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-direction: alternate;
+
+}
+.solution img {
+  position: absolute;
+}
+
+.solution h3,
+.solution p {
+  padding-left: 50px;
+}
+
+.solution2,
+.solution3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.solution2 h2 {
+  color: #fff !important;
+  font-size: 4rem !important;
+}
+
+.solution3 {
+  padding-bottom: 75px;
+}
+
+.solution3 a {
+  color: #fff;
+  border: #fff;
+  border-style: solid;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
+.solution3 a:hover {
+  background-color: #fff;
+  color: #180D3D;
+}
+
+.logo_newroco img,
+.solution2 img {
+  width: 25%;
+  filter: contrast(0.7) sepia(100%) hue-rotate(171deg) brightness(4);
+  padding-bottom: 70px;
+}
+.wave_background {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  background: #180D3D;
+  transform: scale(1, 4);
+}
+
+.wave_background:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  right: -25%;
+  top: 20px;
+}
+
+.wave_background:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #180D3D;
+  left: -25%;
+  top: -240px;
+  clip-path: ellipse(100% 15% at -15% 100%);
+}
+
+/*---- Partners ----*/
+#block-newroco-our-international-partners {
+  margin-bottom: 3em;
+  padding-top: 300px;
+}
+
+#cp1_card,
+#atmos_card
+{
+  padding: 30px;
+  left:0px !important;
+}
+
+#cp1_card{
+  margin-left: 0px!important;
+  width: 22%;
+}
+
+#atmos_card{
+  margin-right: 0px!important;
+  width: 34%;
+}
+
+#cp1_card a,
+#atmos_card a{
+  background-color: #01325f;
+  border-style: hidden;
+  padding: 15px !important;
+  border-radius: 25px;
+  color: #fff;
+}
+#cp1_card a:hover,
+#atmos_card a:hover {
+  border: #01325f;
+  border-style: solid;
+  background-color: #fff;
+  color: #01325f;
+}
+
+#cp1_card h6 {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-weight: normal !important;
+  font-size: 18px !important;
+}
+
+#atmos_card h6 {
+  padding-bottom: 20px;
+  font-weight: normal !important;
+  font-size: 18px !important;
+}
+.partners{
+  display:inline-flex;
+  text-align: center;
+}
+.segment_partners {
+  text-align: center;
+}
+
+/* ---- Looking for a job  -----*/
+.looking_for_a_job {
+  background-color: #180D3D;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 470px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-top: 150px;
+}
+.looking_for_a_job p,
+.looking_for_a_job a{
+  color: #fff !important;
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+.looking_for_a_job img{
+  position: absolute;
+  bottom: 30%;
+  width: 18%;
+  left: 20%;
+  display: block;
+}
+.looking_for_a_job a {
+  border: #fff;
+  border-style: solid;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+.looking_for_a_job a:hover {
+  background-color: #fff;
+  color: #180D3D !important;
+}
+.looking_for_a_job h2{
+  color: #2A78BE !important;
+}
+/*---- Footer ----*/
+.footer img{
+  position: absolute;
+}
+.footer p{
+  padding-left: 50px;
+  height: 40px;
+  font-size: 18px !important;
+  color: #180D3D !important;
+}
+footer{
+  background-color: white;
+  padding: 40px 60px;
+}
+footer h2{
+  font-size:24px !important;
+  color: #180D3D !important;
+}
+.footer{
+  width: 40%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+.footer_logo{
+  width: 60%;
+  align-self: center;
+}
+.block_footer {
+  width: 40%;
+}
+.footer_logo img{
+  width: 80%;
+}
+
+.content_footer nav{
+  width: 25%;
+  align-items: center;
+}
+.footer ul{
+  flex-direction: column !important;
+  gap: 1rem!important;
+}
+.ping_footer:after{
+  -webkit-animation: ping 1.4s ease-in-out infinite;
+  animation: ping 1.4s ease-in-out infinite;
+  width: 17px;
+  height: 17px;
+  background-color: #180D3D;
+  position: absolute;
+  border-radius: 100%;
+  display: block;
+  content: "";
+  top: 60px;
+  animation-delay: .2s;
+}
+
+.ping_footer{
+  right: 10%;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(.2);
+    opacity: .8;
+  }
+
+  80% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.content_footer > div{
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.footer a{
+  font-size: 20px;
+}
+

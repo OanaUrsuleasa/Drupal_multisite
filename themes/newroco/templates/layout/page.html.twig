@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GotoEV</title>
+  </head>
+{% include '@newroco/parts/header.html.twig' %}
+	<main class="main">
+		<div class='content'>
+			{% include '@newroco/parts/content_top.html.twig' %}
+			{% if page.content_home %}
+				{{page.content_home}}
+				{% include '@newroco/parts/content_home.html.twig' %}
+			{% endif %}
+			{% if page.content_jobs %}
+				{{page.content_jobs}}
+				{% include '@newroco/parts/content_jobs.html.twig' %}
+			{% endif %}
+			{% if page.content %}
+
+				{{page.content}}
+			{% endif %}
+			{% include '@newroco/parts/content_bottom.html.twig' %}
+		</div>
+		{% if page.sidebar %}
+		<div class="sidebar">
+
+		</div>
+		{% endif %}
+	</main>
+{% include '@newroco/parts/footer.html.twig' %}
+</html>

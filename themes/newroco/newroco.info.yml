@@ -1,0 +1,35 @@
+name: Newroco
+type: theme
+base theme: false
+description : 'A Newroco custom theme'
+pakage: Custom
+version: 1.0.0
+core_version_requirement: ^8 || ^10
+
+libraries:
+  - newroco/global
+
+regions:
+  header: 'Header'
+  header_menu: 'Menu'
+  navbar_branding: 'Branding'
+  header_title: 'Title'
+  header_search: 'Search'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  content_home: 'Homepage Content'
+  content_jobs: 'Jobs Content'
+  content_top: 'Content Top'
+  content_bottom: 'Content Bottom'
+  segment_what_we_do: 'What we do'
+  what_we_do_row1: 'What_we_do_row1'
+  what_we_do_row2: 'What_we_do_row2'
+  segment_solutions: 'Solutions'
+  segment_technology: 'Technology'
+  segment_welcome: 'Welcome Content'
+  segment_partners: 'Partners'
+  segment_founding: 'Founding'
+  segment_jobs: 'Jobs'
+  why_newroco: 'Why Newroco'
+  benefits: 'Benefits'
+  footer: 'Footer'
