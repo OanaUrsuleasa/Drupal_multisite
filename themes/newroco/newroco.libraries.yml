@@ -1,0 +1,12 @@
+global:
+  version: 1.0
+  css:
+    theme:
+      css/style_home.css: {}
+      css/style_jobs.css: {}
+      css/style_mahi.css: {}
+  js:
+    theme:
+      js/custom.js: {}
+  dependencies:
+    - core/jquery

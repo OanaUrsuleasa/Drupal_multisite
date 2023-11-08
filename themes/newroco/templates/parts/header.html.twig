@@ -1,0 +1,56 @@
+<header class="header dark">
+	{% if page.header %}
+		<div class="header-top">
+			<div class="container">
+				<div class="header-top-block">
+					{{ page.header }}
+				</div>
+			</div>
+		</div>
+	{% endif %}
+	<div class="header-main">
+		<div class="container">
+			<div class="header-main-container">
+				{% if page.navbar_branding %}
+					<div class="site-branding-region">
+						{{ page.navbar_branding }}
+					</div>
+					<!--/.site-branding -->
+				{% endif %}
+
+				<div class="header-right">
+					{% if page.header_menu %}
+						<div class="mobile-menu-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<!-- /mobile-menu -->
+						<div class="primary-menu-wrapper">
+							<div class="menu-wrap">
+								<div class="close-mobile-menu">X</div>
+								{{ page.header_menu }}
+							</div>
+						</div>
+						<!-- /primary-menu-wrapper -->
+					{% endif %}
+					{% if page.header_search %}
+						<div class="search-icon">
+							<i class="icon-search"></i>
+						</div>
+						<!--/.search icon -->
+						<div class="search-box">
+							<div class="search-box-close"></div>
+							<div class="container">
+								<div class="search-box-content">
+									{{ page.header_search }}
+								</div>
+							</div>
+							<div class="search-box-close"></div>
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

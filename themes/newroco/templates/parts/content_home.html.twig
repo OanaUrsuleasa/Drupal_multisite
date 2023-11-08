@@ -1,0 +1,46 @@
+<div class="content-home">
+    {% if page.segment_what_we_do %}
+        <section id="segment_what_we_do" class="content-block segment_what_we_do">
+            {{ page.segment_what_we_do }}
+            <div class="column what_we_do">
+                <div class="row what_we_do_row1">
+                    {{page.what_we_do_row1}}
+                </div>
+                <div class="row what_we_do_row2">
+                    {{page.what_we_do_row2}}
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+    {% if page.segment_founding %}
+        <section id="segment_founding" class="content-block segment_founding">
+            {{ page.segment_founding }}
+        </section>
+    {% endif %}
+
+    {% if page.segment_welcome %}
+        <section id="segment_welcome" class="content-block segment_welcome">
+        {{ page.segment_welcome }}
+        </section>
+    {% endif %}
+
+    {% if page.segment_technology %}
+        <section id="segment_technology" class="content-block segment_technology">
+            {{ page.segment_technology }}
+        </section>
+    {% endif %}
+
+    {% if page.segment_solutions %}
+        <section id="segment_solutions" class="content-block segment_solutions">
+        {{ page.segment_solutions }}
+        </section>
+    {% endif %}
+
+
+    {% if page.segment_partners %}
+        <section id="segment_partners" class="content-block segment_partners">
+        {{ page.segment_partners }}
+        </section>
+    {% endif %}
+</div>
