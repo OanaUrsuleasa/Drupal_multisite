@@ -1,0 +1,104 @@
+.contact-form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: url(img/white-wave-bg.png) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
+    background-blend-mode: normal, normal;
+    height: 55em;
+    color: white;
+}
+
+.contact_title{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(225deg,#0e1226 11%,#253470 80%,#0e1226 144%);
+    color: white;
+    height: 12em;
+}
+.contact_title h2{
+    color: #fff !important;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
+}
+
+.contact_footer {
+    text-align: center;
+  }
+.contact_footer h2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.contact_footer img{
+    width: 60em;
+    position: absolute;
+    left: 35%;
+  }
+.contact_footer:after{
+    -webkit-animation: ping 1.4s ease-in-out infinite;
+    animation: ping 1.4s ease-in-out infinite;
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 100%;
+    display: block;
+    content: "";
+    left: 68.3%;
+    bottom: -7%;
+    animation-delay: .2s;
+  }
+.contact_footer2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    left: 13%;
+  }
+.contact_footer2 p{
+    display: flex;
+    align-items: center;
+  }
+.contact_footer2 a{
+    background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+  }
+.contact_footer2 a:hover,
+.form-submit:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+.form-submit {
+    background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 10px;
+    display: block;
+    border-style: none;
+}
+

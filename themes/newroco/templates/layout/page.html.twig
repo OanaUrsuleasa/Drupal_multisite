@@ -17,6 +17,11 @@
 				{{page.content_jobs}}
 				{% include '@newroco/parts/content_jobs.html.twig' %}
 			{% endif %}
+			{% if page.content_portfolio %}
+				<section id="content_portfolio" class="content-block content_portfolio">
+					{{page.content_portfolio}}
+				</section>
+			{% endif %}
 			{% if page.content %}
 
 				{{page.content}}

@@ -19,6 +19,7 @@ regions:
   content: 'Content'
   content_home: 'Homepage Content'
   content_jobs: 'Jobs Content'
+  content_portfolio: 'Portfolio Content'
   content_top: 'Content Top'
   content_bottom: 'Content Bottom'
   segment_what_we_do: 'What we do'

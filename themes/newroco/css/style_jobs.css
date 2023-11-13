@@ -1,26 +1,27 @@
 .jobs_background{
-  /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 125%); */
-  background: url(img/white-wave-bg.png) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 125%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
+  background: url(img/white-wave-bg.png) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
   background-blend-mode: normal, normal;
   height:42em;
 }
 
 .jobs_content_top
 {
- position: absolute;
+  position: absolute;
   height: 500px;
   display: flex;
   flex-wrap: nowrap;
-  width: 26%;
+  width: 39%;
   align-items: center;
-  left: 24%;
+  left: 50%;
   color: white;
   top: 55%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
   z-index: 2;
+  text-align: center;
 }
 .jobs_content_top h2{
   color: #fff !important;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
 }
 
 /* -----Segment Jobs ----- */
@@ -54,7 +55,7 @@
   margin: 15px !important;
 }
 .jobs_card {
-  width: 35%;
+  width: 37%;
   text-align: left;
   padding: 2rem;
   border-radius: 2.5rem;
@@ -167,11 +168,13 @@
   justify-content: center;
   /* align-items: center; */
   flex-wrap: nowrap;
+  background: url(img/white-wave-bg.png) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
+  background-blend-mode: normal, normal;
 }
-.header_job_description img {
+/* .header_job_description img {
   position: absolute;
   width: -webkit-fill-available;
-}
+} */
 .header_job_description h2{
   color: #fff !important;
   position: absolute;
@@ -195,7 +198,6 @@
 .field__label
 {
   font-size: 3rem;
-  /* margin-bottom: 1rem; */
   line-height: 5.7rem;
   color:#01325f;
   font-family: "Rubik", sans-serif !important;
@@ -208,7 +210,6 @@
 }
 .field__item li:before{
   content: url(img/check.png);
-  /* height: 4rem; */
   margin-right: 2rem;
 }
 .field__item li{
@@ -216,8 +217,8 @@
   -webkit-box-align: center;
   flex-wrap: nowrap;
   font-size: 22px;
-  line-height: 1.5rem;
-  height: 50px;
+  line-height: 2rem;
+  height: auto;
   width: 54rem;
   align-items: stretch;
 }

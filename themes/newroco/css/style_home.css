@@ -51,10 +51,21 @@ h3 {
   padding-left: 50px;
   align-items: center;
   position: absolute;
-  top: 60%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  text-align: center;
+}
+.home_background {
+  background: url(img/header-bottom-none.png) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
+  background-blend-mode: normal, normal;
+  height: 600px;
+}
+.block_who_we_are h2{
+  color: #fff !important;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
+
 }
 .block_who_we_are strong{
   color: #fff !important;
@@ -64,9 +75,9 @@ h3 {
   font-size: 30px !important;
   width: 800px;
 }
-.home_background:after{
+/* .home_background:after{
 filter: brightness(0.5);
-}
+} */
 /*-------- Block What We Do --------- */
 .segment_what_we_do {
   padding-bottom: 80px;
@@ -76,7 +87,7 @@ filter: brightness(0.5);
 .block_what_we_do {
   text-align: center;
   margin-bottom: 3em;
-  margin-top: 10em;
+  margin-top: 6em;
 }
 .block_what_we_do p{
   max-width: none !important;
@@ -114,7 +125,7 @@ filter: brightness(0.5);
 /*-------- Block Founfing--------- */
 
 .segment_founding {
-  background-color: #180d3d;
+  background-image: linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%);
   color: #fff;
   text-align: center;
   padding: 100px 50px;
@@ -188,39 +199,6 @@ filter: brightness(0.5);
 }
 
 /*-------- Block Welcome to Newroco--------- */
-.segment_welcome_wave {
-  display: block;
-  position: relative;
-  height: 40px;
-  width: 100%;
-  transform: scale(1, 4);
-}
-
-.segment_welcome_wave:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 150%;
-  width: 127%;
-  height: 274px;
-  background-color: #005892;
-  left: -42%;
-  top: -214px;
-  clip-path: ellipse(168% 15% at 6% 104%);
-}
-
-.segment_welcome_wave:before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100%;
-  width: 100%;
-  height: 280px;
-  background-color: white;
-  right: -40.5%;
-  top: 2px;
-  clip-path: ellipse(100% 24% at -23% 2%);
-}
 
 .welcome_to_newroco {
   padding: 40px;
@@ -239,7 +217,7 @@ filter: brightness(0.5);
   height: unset;
 }
 .segment_welcome {
-  background-image: linear-gradient(#180D3D, #074178, #005892);
+  background-image: linear-gradient(225deg,#0e1226 -37%,#1a234b 5%,#1a234b -110%,#253470 33%,#0e1226 86%);
   padding: 40px 50px;
 }
 
@@ -251,7 +229,7 @@ filter: brightness(0.5);
 /* ---- Technology ---- */
 .technology {
   width: 100%;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 100px;
   text-align: center;
   max-width: none !important;
@@ -288,7 +266,8 @@ filter: brightness(0.5);
 }
 
 .segment_solutions {
-  background-color: #180D3D !important;
+  background: url(img/white-wave-bg.png) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
+  background-blend-mode: normal, normal;
 }
 
 .solution {
@@ -327,7 +306,7 @@ filter: brightness(0.5);
 }
 
 .solution3 {
-  padding-bottom: 75px;
+  padding-bottom: 150px;
 }
 
 .solution3 a {
@@ -349,44 +328,11 @@ filter: brightness(0.5);
   filter: contrast(0.7) sepia(100%) hue-rotate(171deg) brightness(4);
   padding-bottom: 70px;
 }
-.wave_background {
-  display: block;
-  position: relative;
-  height: 40px;
-  width: 100%;
-  background: #180D3D;
-  transform: scale(1, 4);
-}
-
-.wave_background:before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100%;
-  width: 100%;
-  height: 300px;
-  background-color: white;
-  right: -25%;
-  top: 20px;
-}
-
-.wave_background:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100%;
-  width: 100%;
-  height: 300px;
-  background-color: #180D3D;
-  left: -25%;
-  top: -240px;
-  clip-path: ellipse(100% 15% at -15% 100%);
-}
 
 /*---- Partners ----*/
 #block-newroco-our-international-partners {
   margin-bottom: 3em;
-  padding-top: 300px;
+  padding-top: 150px;
 }
 #block-newroco-our-international-partners p{
   max-width: none;
@@ -445,14 +391,15 @@ filter: brightness(0.5);
 
 /* ---- Looking for a job  -----*/
 .looking_for_a_job {
-  background-color: #180D3D;
+  background: url(img/wave-small-bottom.png) center top -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
+  background-blend-mode: normal, normal;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding-right: 470px;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 100px;
   margin-top: 150px;
+  text-align: center;
 }
 .looking_for_a_job p,
 .looking_for_a_job a{
@@ -482,7 +429,7 @@ filter: brightness(0.5);
 
 }
 .looking_for_a_job h2{
-  color: #2A78BE !important;
+  color: #fff !important;
 }
 /*---- Footer ----*/
 .footer img{
@@ -582,7 +529,7 @@ footer h2{
   font-size: 20px;
 }
 
-.filter-image-invalid{
-  width: min-content;
-  height: 60px;
+.home_background .filter-image-invalid{
+  width: -webkit-fill-available;
+  height: unset;
 }
