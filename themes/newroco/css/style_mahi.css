@@ -350,7 +350,6 @@ form {
 button,
 input,
 optgroup,
-select,
 textarea {
   margin: 0;
   font-family: inherit;
@@ -363,8 +362,7 @@ input {
   overflow: visible;
 }
 
-button,
-select {
+button{
   text-transform: none;
 }
 
@@ -413,7 +411,8 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 input[type="number"],
-input[type="url"] {
+input[type="url"],
+.form-select {
   background-color: #ffffff;
   padding: 10px;
   max-width: 100%;
@@ -422,8 +421,19 @@ input[type="url"] {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
+.form-select {
+  width: 600px !important;
+  padding: 12px 10px !important;
+  appearance: none;
+  background: #fff url(img/select.png) no-repeat right 1.55rem center/15px 10px;
+  color: #8a8a8a;
+  font-family: var(--font-text);
+  font-size: 16px;
+}
 
-
+.form-select:first-child{
+  display: none;
+}
 input[type="button"],
 input[type="reset"] {
   position: relative;
@@ -502,9 +512,6 @@ optgroup {
   font-weight: bold;
 }
 
-select {
-  padding: 4px 0;
-}
 
 form label {
   font-weight: bold;

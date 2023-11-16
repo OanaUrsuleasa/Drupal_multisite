@@ -1,0 +1,5 @@
+name: 'Custom Contact Form'
+type: module
+description: 'Custom module for extending the Contact Form.'
+core_version_requirement: ^8 || ^10
+package: Other

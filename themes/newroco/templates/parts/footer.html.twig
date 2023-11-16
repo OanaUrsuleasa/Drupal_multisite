@@ -1,5 +1,7 @@
-<footer>
-    <section class='content_footer'>
-        {{ page.footer}}
-    </sectgion>
-</footer>
+{% if page.footer %}
+    <footer>
+        <section class='content_footer'>
+            {{ page.footer}}
+        </sectgion>
+    </footer>
+{% endif %}

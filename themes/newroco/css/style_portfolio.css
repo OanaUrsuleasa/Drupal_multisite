@@ -150,6 +150,9 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
   }
 
 /* -----------------------------------------------------------*/
+.digital_solution{
+    padding-bottom: 80px;
+}
 .digital_solution > .field__item,
 .digital_solution > .field__item > ul{
     display: flex;
@@ -166,9 +169,12 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
 .digital_solution > .field__item > ul{
     gap:unset !important;
 }
+.digital_solution > .field__item > li{
+    font-size: 18px !important;
+}
 .field--name-field-header-portfolio{
     text-align: center;
-    padding: 4rem 2rem !important;
+    padding: 4rem 2rem 0 2rem !important;
 }
 .field--name-field-header-portfolio h2{
     background: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
@@ -177,26 +183,81 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
     font-size: 3em;
     margin:0px;
 }
-.digital_solution > .field__item > *{
+/* .digital_solution > .field__item > *{
     flex: auto 1;
+} */
+.digital_solution > .field__item > img {
+    box-shadow: 0 6.4px 14.4px 0 rgba(0,0,0,.132), 0 1.2px 3.6px 0 rgba(0,0,0,.108);
+    width: 47em;
 }
+
 .digital_solution > .field__item > p {
-    max-width: 45rem;
+    max-width: 25rem;
     font-family: "TT Norms",Helvetica,Arial,sans-serif;
+    font-size: 18px !important;
 }
-.digital_solution > .field__item:first-child >p{
-    max-width: 54rem !important;
+.digital_solution > .field__item:first-child > p{
+    max-width: 80rem !important;
 }
-.digital_solution > .field__item,
-.field--name-field-header-portfolio {
-    background-color: #F8F7F5;
-    padding: 0 3em;
+.digital_solution > .field__item:nth-child(2) {
+    gap: 3em;
+}
+.digital_solution > .field__item:nth-child(2) > p{
+    max-width: 46em;
+}
+.digital_solution > .field__item:nth-child(2) > img{
+    box-shadow: none !important;
+    width: 30em !important;
+}
+
+.digital_solution > .field__item:first-child,
+.digital_solution > .field__item:nth-child(2){
+    padding: 0px !important;
+}
+.digital_solution > .field__item {
+    /* background-color: #F8F7F5; */
+    padding: 72px 0;
+}
+.field--name-field-header-portfolio{
+    padding: 3em 0 !important;
 }
 
 .digital_solution strong {
-    font-size: 50px;
+    font-size: 30px;
     background: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "TT Norms",Helvetica,Arial,sans-serif;
 }
+.footer_project{
+    background: url(img/wave-small-bottom.png) center top -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
+    background-blend-mode: normal, normal;
+    height:20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_project h2{
+    color: #fff !important;
+    font-size: 2rem !important;
+    padding-bottom: 50px;
+}
+.footer_project a{
+    background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+  }
+.footer_project a:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }

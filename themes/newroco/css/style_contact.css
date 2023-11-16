@@ -7,7 +7,7 @@
     flex-direction: column;
     background: url(img/white-wave-bg.png) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
     background-blend-mode: normal, normal;
-    height: 55em;
+    height: 60em;
     color: white;
 }
 
@@ -18,7 +18,7 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(225deg,#0e1226 11%,#253470 80%,#0e1226 144%);
+    background: linear-gradient(225deg,#0e1226 11%,#253470 88%,#0e1226 144%);
     color: white;
     height: 12em;
 }
@@ -101,4 +101,3 @@
     display: block;
     border-style: none;
 }
-

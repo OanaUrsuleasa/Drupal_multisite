@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+function custom_contact_form_form_alter($form, $form_state, $form_id) {
+    if ($form_id == 'contact-message-contact-us-form') {
+        $current_page_url = url($_SERVER['REQUEST_URI'], array('absolute' => TRUE));
+
+        $form['source_page'] = array(
+            '#type' => 'hidden',
+            '#value' => $current_page_url,
+            '#class' => 'source_page'
+        );
+
+        $form['#submit'][] = 'custom_contact_form_form_submit';
+    }
+}
+
+function custom_contact_form_form_submit($form, $form_state) {
+  $current_page_url = url($_SERVER['REQUEST_URI'], array('absolute' => TRUE));
+  $message = array(
+    'source_page' => $current_page_url,
+);
+// message_save($message);
+$form_state['values']['source_page'] = $message;
+}
