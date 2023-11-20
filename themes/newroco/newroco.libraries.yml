@@ -6,9 +6,9 @@ global:
       css/style_jobs.css: {}
       css/style_contact.css: {}
       css/style_portfolio.css: {}
+      css/style_technologies.css: {}
       css/style_mahi.css: {}
   js:
-    theme:
       js/custom.js: {}
   dependencies:
     - core/jquery

@@ -425,7 +425,7 @@ input[type="url"],
   width: 600px !important;
   padding: 12px 10px !important;
   appearance: none;
-  background: #fff url(img/select.png) no-repeat right 1.55rem center/15px 10px;
+  background: #fff url(img/select.png) no-repeat right 1rem center/15px 10px;
   color: #8a8a8a;
   font-family: var(--font-text);
   font-size: 16px;
