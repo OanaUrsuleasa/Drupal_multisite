@@ -24,8 +24,12 @@
 					{{page.content_portfolio}}
 				</section>
 			{% endif %}
+			{% if page.content_info %}
+				<section id="content_info" class="content-block content_info">
+					{{page.content_info}}
+				</section>
+			{% endif %}
 			{% if page.content %}
-
 				{{page.content}}
 			{% endif %}
 			{% include '@newroco/parts/content_bottom.html.twig' %}

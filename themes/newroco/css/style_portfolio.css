@@ -1,21 +1,23 @@
 .portfolio_header {
     position: absolute;
-    height: 500px;
     display: flex;
     flex-wrap: nowrap;
-    width: 45%;
+    width: 48%;
     align-items: center;
     left: 50%;
-    color: white;
     top: 9%;
     transform: translate(-50%,-50%);
     z-index: 2;
     text-align: center;
 }
-.portfolio_header h2{
-    color:#fff !important;
+.portfolio_header strong{
+    background-image: linear-gradient(to left, #7ab4f4, #6097d7, #477cbb, #2c61a0, #064885);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
+.portfolio_background{
+    height:20em;
+}
 
 /*-------------------------------------*/
 .PortfolioList{
@@ -23,14 +25,14 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: stretch;
-    padding: 90px 0 80px;
+    padding: 0px 0 80px;
 }
 .content_portfolio{
     width: 100%;
     max-width: 122rem;
     position: relative;
     flex-direction: column;
-    color: #fff;
+    /* color: #fff; */
     -webkit-box-align: center;
 }
 .views-row {
@@ -39,6 +41,15 @@
     color: black;
     border-radius: 20px;
     box-shadow: 8px 14px 38px rgba(39,44,34,-0.315), 1px 3px 8px rgba(39,44,37,0.4);
+    padding: 2em !important;
+}
+.views-row:hover {
+    background: #253470 51%;
+}
+.views-row:hover p,
+.views-row:hover a,
+.views-row:hover h2{
+    color: #fff !important;
 }
 .portfolio-list {
     display: grid;
@@ -49,15 +60,16 @@
     align-items: stretch;
 }
 .btn-read-more a{
-background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+  background-image: linear-gradient(to right, #457fca 0%, #5691c8 51%, #457fca 100%);
   margin: 10px;
-  padding: 15px 45px;
+  padding: 10px 15px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
   border-radius: 10px;
+  font-size: 13px;
 }
 
 .btn-read-more a:hover {
@@ -70,19 +82,14 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
     align-items: flex-end;
     align-content: center;
     justify-content: center;
-    height: 5em;
-    padding-bottom: 2.5rem !important;
+    height: 3rem;
 }
 .views-field-field-header-portfolio{
-    height: 6em;
+    height: 4em;
 }
 .views-field-field-header-portfolio h2 {
-    font-size: 1.6rem !important;
-    margin: 50px 0 10px 0;
-    font-family: Poppins,'Source Sans Pro',sans-serif !important;
-    background: linear-gradient(to right,#005C97 0%,#363795 51%,#005C97 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 22px !important;
+   color:#343434;
     text-align: center;
 }
 .views-field-field-image-portfolio img{
@@ -92,13 +99,12 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
     border-bottom: black 1px solid;
 }
 .views-field-field-description{
-    height: 18em;
+    height: 7em;
+    padding: 0px !important;
 }
 .views-field-field-description p {
-    font-family: Merriweather, Georgia,serif;
-    font-size: 1.1rem;
-    color: #000;
-    line-height: 1.6;
+    color: #5f6d82 !important;
+    font-size: 14px !important;
 }
 .views-field-field-header-portfolio,
 .views-field-field-description,
@@ -121,7 +127,7 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
 }
 
 .portfolio_footer a {
-    background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    background-image: linear-gradient(to right, #457fca 0%, #5691c8 51%, #457fca 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
@@ -138,11 +144,11 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
     text-decoration: none;
   }
 .portfolio_footer h2{
-    background: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    background-image: linear-gradient(to right, #457fca 0%, #5691c8 51%, #457fca 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 50px;
-    font-size: 2em !important;
+    font-size: 30px !important;
 
   }
 .portfolio_footer p{
@@ -176,16 +182,7 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
     text-align: center;
     padding: 4rem 2rem 0 2rem !important;
 }
-.field--name-field-header-portfolio h2{
-    background: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 3em;
-    margin:0px;
-}
-/* .digital_solution > .field__item > *{
-    flex: auto 1;
-} */
+
 .digital_solution > .field__item > img {
     box-shadow: 0 6.4px 14.4px 0 rgba(0,0,0,.132), 0 1.2px 3.6px 0 rgba(0,0,0,.108);
     width: 47em;
@@ -224,14 +221,11 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
 
 .digital_solution strong {
     font-size: 30px;
-    background: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:#343434;
     font-family: "TT Norms",Helvetica,Arial,sans-serif;
 }
 .footer_project{
-    background: url(img/wave-small-bottom.png) center top -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(225deg,#0e1226 0,#253470 51%,#0e1226 100%) 0% 0% / auto repeat scroll padding-box border-box rgba(9, 9, 121, 1);
-    background-blend-mode: normal, normal;
+
     height:20em;
     display: flex;
     justify-content: center;
@@ -241,12 +235,11 @@ background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100
 }
 
 .footer_project h2{
-    color: #fff !important;
-    font-size: 2rem !important;
+    font-size: 30px !important;
     padding-bottom: 50px;
 }
 .footer_project a{
-    background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+    background-image: linear-gradient(to right, #457fca 0%, #5691c8 51%, #457fca 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;

@@ -4,6 +4,8 @@ global:
     theme:
       css/style_home.css: {}
       css/style_jobs.css: {}
+      css/style_info.css: {}
+      css/style_services.css: {}
       css/style_contact.css: {}
       css/style_portfolio.css: {}
       css/style_technologies.css: {}

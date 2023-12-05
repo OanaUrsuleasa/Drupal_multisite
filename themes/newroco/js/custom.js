@@ -1,6 +1,24 @@
 jQuery(document).ready(function($) {
 
+    //add animation to section home
+    const targets = document.querySelectorAll("section");
+    const threshold = 0.5;
 
+    const setAnim = (entries, observer) => {
+      entries.forEach((entry) => {
+        const elem = entry.target;
+        if (entry.isIntersecting) {
+          elem.classList.add('visible');
+        } else {
+          elem.classList.remove('visible');
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(setAnim, { threshold });
+    for (const target of targets) {
+      observer.observe(target);
+    }
 
     $('.field__item a').on('click', function() {
         $('.technology .field__item a').attr('target', '_blank');

@@ -13,8 +13,9 @@
   --border: #b5b6be;
   --border-dark: #3d4353;
   --shadow: 0 0 3px 0 var(--color-secondary);
-  --font-text: "Rubik", sans-serif;
-  --font-heading: "Rubik", sans-serif;
+  --shadow: 0 0 3px 0 var(--color-secondary);
+  --font-text: "Poppins",sans-serif;
+  --font-heading: "Poppins", sans-serif;
 }
 
 /* Default Box sizing */
@@ -105,7 +106,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: var(--bold-color);
+  color: #343434;
   font-family: var(--font-heading);
   font-weight: 700;
   font-style: normal;
@@ -118,11 +119,11 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 h4 {
@@ -131,7 +132,7 @@ h4 {
 
 /* Typography -> Paragraph */
 p {
-  font-size: 23px;
+  font-size: 18px;
   margin: 0px !important;
 }
 
@@ -1189,7 +1190,7 @@ ul {
   height: 0.5rem;
   width: 0.5rem;
   position: absolute;
-  top: calc(2.5rem);
+  top: calc(1.8rem);
   background-color: #2A78BE;
   border-radius: 50%;
  }
@@ -2545,16 +2546,33 @@ button:hover::before,
 
 .menu-wrap a {
   color: var(--color-secondary);
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   align-items: center;
   padding-top: 5px;
-  text-transform: uppercase;
-  font-family: Rubik;
+  font-family: "Poppins", sans-serif;
 }
-
+.menu-wrap li:last-child a{
+  background-image: linear-gradient(to right, #457fca 0%, #5691c8 51%, #457fca 100%);
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.menu-wrap li:last-child a:hover,
+.menu-wrap li:last-child a.is-active{
+  background-image: linear-gradient(to right, #005C97 0%, #363795 51%, #005C97 100%);
+  color: white;
+}
+.menu-wrap li:last-child a.is-active:after {
+  content: none;
+}
 .dark button,
 .dark .button,
 .dark .button-primary,
